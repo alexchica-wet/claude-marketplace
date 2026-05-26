@@ -1,0 +1,33 @@
+{
+  "name": "wet-tools",
+  "owner": {
+    "name": "Alex Chica",
+    "email": "alexchica@wetaca.com"
+  },
+  "metadata": {
+    "description": "Marketplace personal de plugins para Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "learn-basics",
+      "description": "Plugin pedagógico — un ejemplo mínimo de cada tipo de componente",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexchica-wet/claude-marketplace.git",
+        "path": "plugins/learn-basics"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "name": "wet-flow",
+      "description": "Flujo git/commit/PR — commit asistido, revisor de diff, hook anti-force-push",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexchica-wet/claude-marketplace.git",
+        "path": "plugins/wet-flow"
+      },
+      "version": "0.1.0"
+    }
+  ]
+}

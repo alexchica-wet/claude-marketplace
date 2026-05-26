@@ -1,0 +1,9 @@
+{
+  "name": "learn-basics",
+  "description": "Plugin pedagógico — un ejemplo mínimo de cada tipo de componente (command, skill, agent, hook)",
+  "version": "0.1.0",
+  "author": { "name": "Alex Chica", "email": "alexchica@wetaca.com" },
+  "repository": "https://github.com/alexchica-wet/claude-marketplace",
+  "license": "MIT",
+  "keywords": ["learning", "demo", "starter"]
+}

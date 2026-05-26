@@ -28,6 +28,16 @@
         "path": "plugins/wet-flow"
       },
       "version": "0.1.0"
+    },
+    {
+      "name": "forge-keeper",
+      "description": "Mantiene CLAUDE.md y docs sincronizados — vendored desde dmedina-dev/dev-forge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexchica-wet/claude-marketplace.git",
+        "path": "plugins/forge-keeper"
+      },
+      "version": "1.4.1"
     }
   ]
 }

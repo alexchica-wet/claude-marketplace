@@ -1,0 +1,12 @@
+{
+  "name": "wet-tools",
+  "owner": {
+    "name": "Alex Chica",
+    "email": "alexchica@wetaca.com"
+  },
+  "metadata": {
+    "description": "Marketplace personal de plugins para Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}

@@ -13,7 +13,10 @@ En una sesión de Claude Code:
 
 ## Plugins disponibles
 
-_Pendiente: se irán añadiendo aquí a medida que se publiquen._
+| Plugin | Descripción |
+|---|---|
+| [`learn-basics`](plugins/learn-basics/README.md) | Plugin pedagógico — un ejemplo mínimo de cada tipo de componente. |
+| [`wet-flow`](plugins/wet-flow/README.md) | Flujo git/commit/PR — commit asistido, revisor de diff, hook anti-force-push. |
 
 ## Estructura
 

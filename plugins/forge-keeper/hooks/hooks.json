@@ -1,0 +1,28 @@
+{
+  "description": "Context rescue: PreCompact auto-captures session diary before context loss; SessionStart(clear) injects a best-effort recovery summary built from durable sources",
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "The user is about to compact or clear this session. **Auto-capture a diary entry** before context is lost.\n\n1. Run `git diff --name-only` and `git log --oneline -5` to understand what happened this session.\n2. Create a brief diary entry in `docs/sessions/` following this format:\n\n```\n## Session: YYYY-MM-DD — [descriptive title based on changes]\n\n### Changes made\n- [Concrete list from git diff/log]\n\n### Decisions taken\n- [Any non-obvious decisions visible from code changes]\n\n### Context for next session\n- [What a fresh session needs to know to continue]\n```\n\nIf `docs/sessions/` doesn't exist, create it.\nIf a file for today already exists, append a new section with a timestamp.\nKeep the entry under 30 lines — this is a quick capture, not a full sync.\n\n3. After writing the diary, briefly check if there are significant uncommitted knowledge changes (new conventions, architectural decisions) that warrant a full `/forge-keeper:sync`. If yes, suggest it. If the diary capture is sufficient, say: \"Session diary saved to docs/sessions/YYYY-MM-DD-....md\"\n\nDo this quickly — the user is waiting to compact."
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start-clear\"",
+            "async": false
+          }
+        ]
+      }
+    ]
+  }
+}

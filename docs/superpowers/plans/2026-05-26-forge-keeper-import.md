@@ -175,7 +175,7 @@ Expected: 17 `A` lines bajo `plugins/forge-keeper/`.
 git commit -m "feat(forge-keeper): vendor copy from dev-forge@v2.8.1
 
 Copia 1:1 de plugins/forge-keeper/ del upstream dmedina-dev/dev-forge
-en el tag v2.8.1 (commit 10ea91b1).
+en el tag v2.8.1 (commit 330000f7).
 
 Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
 ```

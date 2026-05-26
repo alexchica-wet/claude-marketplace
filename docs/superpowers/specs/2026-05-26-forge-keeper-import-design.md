@@ -5,7 +5,7 @@
 **Repo**: https://github.com/alexchica-wet/claude-marketplace
 **Rama**: `feat/import-forge-keeper`
 **Estado**: aprobado para implementación
-**Upstream**: `dmedina-dev/dev-forge` @ `v2.8.1` (commit `10ea91b112e52dd2ffcfe807beec7c7baffc72a9`)
+**Upstream**: `dmedina-dev/dev-forge` @ `v2.8.1` (tag object `10ea91b1`, commit `330000f7b6c38297b4604bb13ae475ea7126707a`)
 
 ---
 
@@ -78,14 +78,14 @@ Vivirá en `plugins/forge-keeper/.claude-plugin/customizations.json`. Schema: el
     "repo": "dmedina-dev/dev-forge",
     "path": "plugins/forge-keeper",
     "ref": "v2.8.1",
-    "commit": "10ea91b112e52dd2ffcfe807beec7c7baffc72a9",
+    "commit": "330000f7b6c38297b4604bb13ae475ea7126707a",
     "fetched_at": "2026-05-26",
     "check_url": "https://github.com/dmedina-dev/dev-forge/releases"
   },
   "upstream_status": {
     "last_checked": "2026-05-26",
     "latest_ref": "v2.8.1",
-    "latest_commit": "10ea91b112e52dd2ffcfe807beec7c7baffc72a9",
+    "latest_commit": "330000f7b6c38297b4604bb13ae475ea7126707a",
     "has_updates": false,
     "summary": "",
     "changes": []

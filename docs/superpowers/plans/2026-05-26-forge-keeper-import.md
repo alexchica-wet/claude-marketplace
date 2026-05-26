@@ -97,7 +97,7 @@ Expected: clon completo sin errores. Confirmar HEAD:
 ```bash
 git -C /tmp/dev-forge-v2.8.1 rev-parse HEAD
 ```
-Expected: `10ea91b112e52dd2ffcfe807beec7c7baffc72a9`
+Expected: `330000f7b6c38297b4604bb13ae475ea7126707a` (commit que v2.8.1 etiqueta; `10ea91b1` es el tag object SHA del tag anotado, no aparece por aquí).
 
 - [ ] **Step 2: Copiar el subdirectorio preservando permisos**
 
@@ -198,14 +198,14 @@ Crea el archivo `plugins/forge-keeper/.claude-plugin/customizations.json` con es
     "repo": "dmedina-dev/dev-forge",
     "path": "plugins/forge-keeper",
     "ref": "v2.8.1",
-    "commit": "10ea91b112e52dd2ffcfe807beec7c7baffc72a9",
+    "commit": "330000f7b6c38297b4604bb13ae475ea7126707a",
     "fetched_at": "2026-05-26",
     "check_url": "https://github.com/dmedina-dev/dev-forge/releases"
   },
   "upstream_status": {
     "last_checked": "2026-05-26",
     "latest_ref": "v2.8.1",
-    "latest_commit": "10ea91b112e52dd2ffcfe807beec7c7baffc72a9",
+    "latest_commit": "330000f7b6c38297b4604bb13ae475ea7126707a",
     "has_updates": false,
     "summary": "",
     "changes": []
@@ -260,7 +260,7 @@ Plugin que mantiene `CLAUDE.md`, reglas y documentación sincronizados con el es
 
 ## Origen
 
-Este directorio es un **mirror vendorizado** de [`dmedina-dev/dev-forge`](https://github.com/dmedina-dev/dev-forge) en su tag [`v2.8.1`](https://github.com/dmedina-dev/dev-forge/releases/tag/v2.8.1) (commit `10ea91b112e52dd2ffcfe807beec7c7baffc72a9`).
+Este directorio es un **mirror vendorizado** de [`dmedina-dev/dev-forge`](https://github.com/dmedina-dev/dev-forge) en su tag [`v2.8.1`](https://github.com/dmedina-dev/dev-forge/releases/tag/v2.8.1) (commit `330000f7b6c38297b4604bb13ae475ea7126707a`).
 
 No editamos los archivos importados a mano. El estado de sincronización con upstream vive en [`.claude-plugin/customizations.json`](./.claude-plugin/customizations.json).
 

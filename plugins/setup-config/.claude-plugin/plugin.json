@@ -1,0 +1,9 @@
+{
+  "name": "setup-config",
+  "description": "Instalador guiado del endurecimiento de seguridad de Claude Code (user y/o repos), con auditoría final del security-auditor",
+  "version": "0.1.0",
+  "author": { "name": "Alex Chica", "email": "alexchica@wetaca.com" },
+  "repository": "https://github.com/alexchica-wet/claude-marketplace",
+  "license": "MIT",
+  "keywords": ["security", "config", "setup", "permissions", "sandbox", "hooks"]
+}

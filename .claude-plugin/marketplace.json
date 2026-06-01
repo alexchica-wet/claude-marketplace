@@ -38,6 +38,16 @@
         "path": "plugins/forge-keeper"
       },
       "version": "1.4.1"
+    },
+    {
+      "name": "setup-config",
+      "description": "Instalador guiado del endurecimiento de seguridad de Claude Code — preguntas + auditoría",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alexchica-wet/claude-marketplace.git",
+        "path": "plugins/setup-config"
+      },
+      "version": "0.1.0"
     }
   ]
 }
